@@ -1,0 +1,51 @@
+﻿<Window x:Class="session.product"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:session"
+        mc:Ignorable="d"
+        Title="product" Height="401" Width="814.5" Icon="service_logo.png">
+    <Grid Background="#FFF">
+        <Border BorderThickness="0,0,0,3" HorizontalAlignment="Left" Height="70" VerticalAlignment="Top" Width="806" Background="#FFFFFFE1" BorderBrush="#FFFF9C1A"/>
+
+        <Label Content="Доеду  сам" HorizontalAlignment="Left" Margin="72,15,0,0" VerticalAlignment="Top" FontFamily="Tw Cen MT" FontSize="25" Background="#00000000" Foreground="#FFFF9C1A"/>
+        <DataGrid x:Name="products" HorizontalAlignment="Left" Height="256" VerticalAlignment="Top" Width="786" Margin="10,103,0,0" FontFamily="Tw Cen MT" Foreground="#FFFF9C1A" Background="#FFFFFFE1" BorderBrush="#FFFF9C1A" MouseDoubleClick="products_MouseDoubleClick">
+        </DataGrid>
+        <TextBox x:Name="search" HorizontalAlignment="Left" Height="23" Margin="10,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="301" FontFamily="Tw Cen MT" TextChanged="search_TextChanged" Background="#FFFFFFE1" BorderBrush="#FFFF9C1A" Foreground="#FFFF9C1A" FontSize="16"/>
+        <ComboBox x:Name="filtr" HorizontalAlignment="Left" Margin="316,75,0,0" VerticalAlignment="Top" Width="146" BorderBrush="#FFFF9C1A" Foreground="#FFFF9C1A" DropDownClosed="filtr_SelectionChanged">
+            <ListBoxItem Content="Все элементы"/>
+            <ListBoxItem Content="Airline"/>
+            <ListBoxItem Content="Castrol"/>
+            <ListBoxItem Content="Elf"/>
+            <ListBoxItem Content="Ford"/>
+            <ListBoxItem Content="General Motors"/>
+            <ListBoxItem Content="Goodyear"/>
+            <ListBoxItem Content="Honda"/>
+            <ListBoxItem Content="Hyundai/Kia"/>
+            <ListBoxItem Content="Idemitsu"/>
+            <ListBoxItem Content="Liqui Moly"/>
+            <ListBoxItem Content="Lukoil"/>
+            <ListBoxItem Content="Mazda"/>
+            <ListBoxItem Content="Mercedes"/>
+            <ListBoxItem Content="Mitsubishi"/>
+            <ListBoxItem Content="Mobil"/>
+            <ListBoxItem Content="Motul"/>
+            <ListBoxItem Content="Nissan"/>
+            <ListBoxItem Content="Opel"/>
+            <ListBoxItem Content="Petro-Canada"/>
+            <ListBoxItem Content="Profix"/>
+            <ListBoxItem Content="Shell"/>
+            <ListBoxItem Content="Stels"/>
+            <ListBoxItem Content="Suzuki"/>
+            <ListBoxItem Content="Total"/>
+            <ListBoxItem Content="Toyota"/>
+            <ListBoxItem Content="VAG"/>
+            <ListBoxItem Content="ZIC"/> dsdtcnb rfhnbyre d
+        </ComboBox>
+        <Button x:Name="ybyvanie" Content="По убыванию" HorizontalAlignment="Left" Margin="467,75,0,0" VerticalAlignment="Top" Width="118" FontFamily="Tw Cen MT" FontSize="14" Height="22" Background="#FFFFFFE1" BorderBrush="#FFFF9C1A" Foreground="#FFFF9C1A" Click="ybyvanie_Click"/>
+        <Button x:Name="vozrastanie" Content="По возрастанию" HorizontalAlignment="Left" Margin="590,75,0,0" VerticalAlignment="Top" Width="126" FontFamily="Tw Cen MT" FontSize="14" Height="22" Background="#FFFFFFE1" Foreground="#FFFF9C1A" BorderBrush="#FFFF9C1A" Click="vozrastanie_Click"/>
+        <Button x:Name="delete" Content="Удалить" HorizontalAlignment="Left" Margin="721,75,0,0" VerticalAlignment="Top" Width="75" Height="22" FontFamily="Tw Cen MT" Background="#FFFFFFE1" BorderBrush="#FFFF9C1A" Foreground="#FFFF9C1A" FontSize="14" Click="delete_Click"/>
+        <Image HorizontalAlignment="Left" Height="48" Margin="19,10,0,0" VerticalAlignment="Top" Width="48" Source="service_logo.png"/>
+    </Grid>
+</Window>

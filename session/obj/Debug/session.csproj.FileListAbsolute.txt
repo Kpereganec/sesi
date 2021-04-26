@@ -1,0 +1,16 @@
+F:\сессия 2\session\session\bin\Debug\session.exe.config
+F:\сессия 2\session\session\bin\Debug\session.exe
+F:\сессия 2\session\session\bin\Debug\session.pdb
+F:\сессия 2\session\session\obj\Debug\session.csprojAssemblyReference.cache
+F:\сессия 2\session\session\obj\Debug\product.g.cs
+F:\сессия 2\session\session\obj\Debug\App.g.cs
+F:\сессия 2\session\session\obj\Debug\session_MarkupCompile.cache
+F:\сессия 2\session\session\obj\Debug\session_MarkupCompile.lref
+F:\сессия 2\session\session\obj\Debug\product.baml
+F:\сессия 2\session\session\obj\Debug\session.g.resources
+F:\сессия 2\session\session\obj\Debug\session.Properties.Resources.resources
+F:\сессия 2\session\session\obj\Debug\session.csproj.GenerateResource.cache
+F:\сессия 2\session\session\obj\Debug\session.exe
+F:\сессия 2\session\session\obj\Debug\session.pdb
+F:\сессия 2\session\session\obj\Debug\adding.g.cs
+F:\сессия 2\session\session\obj\Debug\adding.baml
